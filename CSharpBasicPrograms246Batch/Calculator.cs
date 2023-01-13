@@ -33,5 +33,11 @@ namespace CSharpBasicPrograms248Batch
             sum = first + second;
             Console.WriteLine("Sum:"+sum);
         }
+
+        public void Substraction()
+        {
+            sum = Math.Abs(first - second); //10-30=-20
+            Console.WriteLine("diff:" + sum);
+        }
     }
 }
